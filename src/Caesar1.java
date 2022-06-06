@@ -22,7 +22,7 @@ public class Caesar1 {
                 text += (char) character;
             }
             System.out.println(text);
-            int numberOfCiphers = 3;
+            int numberOfCiphers = 2;
             text = text.toLowerCase();
             for (int i = 0; i <= numberOfCiphers; i++) {
                 for (int j = 0; j < text.length(); j++) {
